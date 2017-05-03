@@ -6,6 +6,7 @@
 - https://www.wireshark.org/docs/wsdg_html_chunked/ChDissectAdd.html#ChDissectSetup
 - https://github.com/boundary/wireshark/blob/master/doc/packet-PROTOABBREV.c
 - https://wiki.wireshark.org/Lua/Dissectors
+- http://rationallyparanoid.com/articles/tcpdump.html - tcpdump usage
 
 # Injecting messages
 With xxd - inject just enough that it fits nicely on a line once all the other layers are added.
