@@ -23,6 +23,3 @@ sudo tcpdump -i lo -XX -n dst port 9999
         0x0010:  0022 8d70 4000 4011 af58 7f00 0001 7f00  .".p@.@..X......
         0x0020:  0001 96b7 270f 000e fe21 0108 5556 5758  ....'....!..UVWX
 ```
-
-# Time spent
-Commute count: 1
