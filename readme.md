@@ -11,10 +11,15 @@
 # Injecting messages
 With xxd - inject just enough that it fits nicely on a line once all the other layers are added.
 ```bash
-xxd -r -p <<< '0108 5556 5758' > /dev/udp/127.0.0.1/9999
+while :; do xxd -r -p <<< '0108 5556 5758' > /dev/tcp/127.0.0.1/9999; sleep 1; done
 ```
 
-View the message with tcpdump, but only those with out destination port.
+Create a server in another terminal
+```
+nc -kl 9999 | xxd -c 6
+```
+
+Capture the messages with tcpdump, but only those with out destination port.
 ```bash
 sudo tcpdump -i lo -XX -n dst port 9999
 
