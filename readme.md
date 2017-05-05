@@ -46,7 +46,7 @@ I've logged my time on this project using the "logwork" hashtag in the git log.
 Includes documenting it.
 
 ```bash
- git log | grep logwork
-     YouTube and tinkering with /dev/tcp to develop a test message format #logwork 1h
-		 #logwork 2h Googling, watching YouTube, tinkering with tcpdump options
+git log | grep logwork
+YouTube and tinkering with /dev/tcp to develop a test message format #logwork 1h
+#logwork 2h Googling, watching YouTube, tinkering with tcpdump options
 ```
