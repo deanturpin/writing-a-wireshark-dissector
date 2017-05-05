@@ -1,3 +1,15 @@
+# Get started
+Watch this video to get a feel for where dissectors fit into the grand scheme of
+things.
+
+https://www.youtube.com/watch?v=sP8ljsM8c9s
+
+# Lua
+An example of Lua dissector being developed.
+
+https://www.youtube.com/watch?v=I4nf23HywmI
+
+
 # Resouces
 
 "Dissectors are usually written in C, it's also possible to write them in Lua for fast prototyping."
