@@ -50,6 +50,7 @@ sudo tcpdump -i lo -XX -n dst port 9999
 
 # How long did this take?
 I've logged my time on this project using the "logwork" hashtag in the git log.
+Includes documenting it.
 
 ```bash
  git log | grep logwork
