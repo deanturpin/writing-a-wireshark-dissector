@@ -9,7 +9,6 @@ An example of Lua dissector being developed.
 
 https://www.youtube.com/watch?v=I4nf23HywmI
 
-
 # Resouces
 
 "Dissectors are usually written in C, it's also possible to write them in Lua for fast prototyping."
@@ -47,4 +46,12 @@ sudo tcpdump -i lo -XX -n dst port 9999
         0x0000:  0000 0000 0000 0000 0000 0000 0800 4500  ..............E.
         0x0010:  0022 8d70 4000 4011 af58 7f00 0001 7f00  .".p@.@..X......
         0x0020:  0001 96b7 270f 000e fe21 0108 5556 5758  ....'....!..UVWX
+```
+
+# How long did this take?
+I've logged my time on this project using the "logwork" hashtag in the git log.
+
+```bash
+ git log | grep logwork
+ #logwork 2h Googling, watching YouTube, tinkering with tcpdump options
 ```
