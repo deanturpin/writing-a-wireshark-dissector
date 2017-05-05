@@ -17,6 +17,7 @@ I have two messages in my format:
 ```c
 struct request {
 
+	unsigned int stx;			// Start transmission 0xa5a5
 	unsigned int mode;		// 0 request, 1 response
 	unsigned int length;	// Length is zero for a request
 	char[length] time;		// Length of response string
