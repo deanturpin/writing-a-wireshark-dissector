@@ -1,3 +1,5 @@
+This guide takes advantage of the features available only to Linux.
+
 # Get started
 Watch this video to get a feel for where dissectors fit into the grand scheme of
 things.
@@ -24,7 +26,8 @@ struct request {
 }
 ```
 
-Let's start by sending a UDP packet to ourselves.
+Let's start by sending a packet to ourselves (using UDP so we don't have to
+think about establishing a connection right now).
 ```bash
 xxd -r -p <<< 'a5a5 0001 0000' > /dev/udp/0.0.0.0/9999
 ```
