@@ -1,4 +1,4 @@
-This guide takes advantage of the features available only to Linux.
+This guide takes advantage of the features available only to Linux/bash.
 
 # Get started
 Watch this video to get a feel for where dissectors fit into the grand scheme of
